@@ -1,0 +1,535 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>DBAllocator Status (May 3, 2012 7:08:34 AM)</title>
+<style type='text/css'>
+	body, html {font-family: monospace; font-size: 90%}
+	th, td {text-align: left;}
+</style>
+</head>
+<body>
+<h1>DBAllocator Status (May 3, 2012 7:08:34 AM)</h1>
+
+<h2>Known allocations</h2>
+<table>
+<tr>
+	<th width="250" colspan="6">actions</th>
+	<th width="100">database</th>
+	<th width="100">account</th>
+	<th width="200">expires</th>
+	<th>requestee</th>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=e0114156-1a36-4a5a-86e1-463a163bfce6' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=e0114156-1a36-4a5a-86e1-463a163bfce6' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=e0114156-1a36-4a5a-86e1-463a163bfce6' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=e0114156-1a36-4a5a-86e1-463a163bfce6' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=e0114156-1a36-4a5a-86e1-463a163bfce6' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/GUI" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>db2-91</td>
+	<td>dballo01</td>
+	<td>May 4, 2012 6:22:10 AM</td>
+	<td>GUI</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=3455d240-5614-4b52-ae0c-0b5007b5528c' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=3455d240-5614-4b52-ae0c-0b5007b5528c' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=3455d240-5614-4b52-ae0c-0b5007b5528c' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=3455d240-5614-4b52-ae0c-0b5007b5528c' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=3455d240-5614-4b52-ae0c-0b5007b5528c' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/GUI" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql84</td>
+	<td>dballo02</td>
+	<td>May 4, 2012 6:19:36 AM</td>
+	<td>GUI</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=6967d92f-d5df-4d04-979b-77a14d50e4b7' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=6967d92f-d5df-4d04-979b-77a14d50e4b7' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=6967d92f-d5df-4d04-979b-77a14d50e4b7' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=6967d92f-d5df-4d04-979b-77a14d50e4b7' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=6967d92f-d5df-4d04-979b-77a14d50e4b7' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/GUI" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO02</td>
+	<td>May 4, 2012 3:49:41 AM</td>
+	<td>GUI</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=3d2d252c-c43e-40d8-9051-e0339f4067cc' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=3d2d252c-c43e-40d8-9051-e0339f4067cc' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=3d2d252c-c43e-40d8-9051-e0339f4067cc' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=3d2d252c-c43e-40d8-9051-e0339f4067cc' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=3d2d252c-c43e-40d8-9051-e0339f4067cc' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/soa-it-db-openjdk6-felias/DATABASE=postgresql82,jdk=openjdk-1.6.0-local,label=RHEL5_any" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql82</td>
+	<td>dballo02</td>
+	<td>May 3, 2012 8:41:14 AM</td>
+	<td>soa-it-db-openjdk6-felias/DATABASE=postgresql82,jdk=openjdk-1.6.0-local,label=RHEL5_any</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=942182cb-582b-4589-9c83-9be70f16d62a' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=942182cb-582b-4589-9c83-9be70f16d62a' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=942182cb-582b-4589-9c83-9be70f16d62a' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=942182cb-582b-4589-9c83-9be70f16d62a' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=942182cb-582b-4589-9c83-9be70f16d62a' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/soa-riftsaw-db-ibek/DATABASE=postgresql82,jdk=java16_default,label=RHEL_any" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql82</td>
+	<td>dballo01</td>
+	<td>May 3, 2012 7:26:14 AM</td>
+	<td>soa-riftsaw-db-ibek/DATABASE=postgresql82,jdk=java16_default,label=RHEL_any</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=f4373691-1bd5-447b-b34c-4fc2cd1ffc31' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=f4373691-1bd5-447b-b34c-4fc2cd1ffc31' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=f4373691-1bd5-447b-b34c-4fc2cd1ffc31' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=f4373691-1bd5-447b-b34c-4fc2cd1ffc31' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=f4373691-1bd5-447b-b34c-4fc2cd1ffc31' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/GUI" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql84</td>
+	<td>dballo01</td>
+	<td>May 3, 2012 7:54:36 AM</td>
+	<td>GUI</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=25062b0a-9edf-4df5-86f3-91bb974f9e69' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=25062b0a-9edf-4df5-86f3-91bb974f9e69' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=25062b0a-9edf-4df5-86f3-91bb974f9e69' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=25062b0a-9edf-4df5-86f3-91bb974f9e69' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=25062b0a-9edf-4df5-86f3-91bb974f9e69' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=openjdk-1.6.0-local,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO01</td>
+	<td>May 3, 2012 12:07:01 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=openjdk-1.6.0-local,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=fb3a0db2-5397-408f-8fec-9805956bfa15' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=fb3a0db2-5397-408f-8fec-9805956bfa15' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=fb3a0db2-5397-408f-8fec-9805956bfa15' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=fb3a0db2-5397-408f-8fec-9805956bfa15' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=fb3a0db2-5397-408f-8fec-9805956bfa15' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/soa-it-db-jdk16-felias/DATABASE=postgresql83,jdk=java16_default,label=RHEL5_any" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql83</td>
+	<td>dballo01</td>
+	<td>May 3, 2012 8:36:08 AM</td>
+	<td>soa-it-db-jdk16-felias/DATABASE=postgresql83,jdk=java16_default,label=RHEL5_any</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=108ac633-a118-49a7-aad7-0328c9643c2d' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=108ac633-a118-49a7-aad7-0328c9643c2d' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=108ac633-a118-49a7-aad7-0328c9643c2d' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=108ac633-a118-49a7-aad7-0328c9643c2d' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=108ac633-a118-49a7-aad7-0328c9643c2d' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=ibm16,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO08</td>
+	<td>May 3, 2012 12:32:44 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=ibm16,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=74994f0b-7dc0-41d9-bc78-5fc12f571a37' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=74994f0b-7dc0-41d9-bc78-5fc12f571a37' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=74994f0b-7dc0-41d9-bc78-5fc12f571a37' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=74994f0b-7dc0-41d9-bc78-5fc12f571a37' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=74994f0b-7dc0-41d9-bc78-5fc12f571a37' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=java16_default,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO09</td>
+	<td>May 3, 2012 12:34:03 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=java16_default,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=7d9203d7-4941-47b4-a50c-7d4165e3235f' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=7d9203d7-4941-47b4-a50c-7d4165e3235f' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=7d9203d7-4941-47b4-a50c-7d4165e3235f' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=7d9203d7-4941-47b4-a50c-7d4165e3235f' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=7d9203d7-4941-47b4-a50c-7d4165e3235f' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=java16_default,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO07</td>
+	<td>May 3, 2012 12:26:47 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=java16_default,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=1356f140-b675-437c-97fd-657bd6a637aa' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=1356f140-b675-437c-97fd-657bd6a637aa' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=1356f140-b675-437c-97fd-657bd6a637aa' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=1356f140-b675-437c-97fd-657bd6a637aa' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=1356f140-b675-437c-97fd-657bd6a637aa' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=openjdk-1.6.0-local,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO03</td>
+	<td>May 3, 2012 12:54:27 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-soa-5.2,jdk=openjdk-1.6.0-local,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=56629aab-6464-4ef7-9d3f-df867aee2791' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=56629aab-6464-4ef7-9d3f-df867aee2791' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=56629aab-6464-4ef7-9d3f-df867aee2791' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=56629aab-6464-4ef7-9d3f-df867aee2791' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=56629aab-6464-4ef7-9d3f-df867aee2791' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/soa-riftsaw-db-ibek/DATABASE=postgresql83,jdk=java16_default,label=RHEL_any" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql83</td>
+	<td>dballo02</td>
+	<td>May 3, 2012 7:19:35 AM</td>
+	<td>soa-riftsaw-db-ibek/DATABASE=postgresql83,jdk=java16_default,label=RHEL_any</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=0ccd7fd4-8712-4ceb-a41f-f56c0f7d9070' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=0ccd7fd4-8712-4ceb-a41f-f56c0f7d9070' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=0ccd7fd4-8712-4ceb-a41f-f56c0f7d9070' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=0ccd7fd4-8712-4ceb-a41f-f56c0f7d9070' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=0ccd7fd4-8712-4ceb-a41f-f56c0f7d9070' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=openjdk-1.6.0-local,label_exp=RHEL5" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO04</td>
+	<td>May 3, 2012 12:19:38 PM</td>
+	<td>brms-gui-os-rhel5/BRMS_CONTAINER=jboss-eap-5.1,jdk=openjdk-1.6.0-local,label_exp=RHEL5</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=b6f12e44-4207-4c70-84b4-a57e98305603' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=b6f12e44-4207-4c70-84b4-a57e98305603' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=b6f12e44-4207-4c70-84b4-a57e98305603' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=b6f12e44-4207-4c70-84b4-a57e98305603' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=b6f12e44-4207-4c70-84b4-a57e98305603' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-repo-os-rhel6/BRMS_REPOSITORY=jackrabbit,jdk=ibm16,label_exp=RHEL6" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO05</td>
+	<td>May 3, 2012 7:14:55 AM</td>
+	<td>brms-gui-repo-os-rhel6/BRMS_REPOSITORY=jackrabbit,jdk=ibm16,label_exp=RHEL6</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=6767d1c7-e575-44a3-b290-7a8a67afb30e' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=6767d1c7-e575-44a3-b290-7a8a67afb30e' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=6767d1c7-e575-44a3-b290-7a8a67afb30e' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=6767d1c7-e575-44a3-b290-7a8a67afb30e' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=6767d1c7-e575-44a3-b290-7a8a67afb30e' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/brms-gui-browser-ff-win/jdk=java16_default,label_exp=wVista" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>oracle11gR2</td>
+	<td>DBALLO06</td>
+	<td>May 3, 2012 11:44:22 AM</td>
+	<td>brms-gui-browser-ff-win/jdk=java16_default,label_exp=wVista</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=20f869b6-64cc-43d6-b63c-6983a298ddf8' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=20f869b6-64cc-43d6-b63c-6983a298ddf8' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=20f869b6-64cc-43d6-b63c-6983a298ddf8' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=20f869b6-64cc-43d6-b63c-6983a298ddf8' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=20f869b6-64cc-43d6-b63c-6983a298ddf8' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/soa-it-single" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>postgresql84</td>
+	<td>dballo03</td>
+	<td>May 3, 2012 9:46:05 AM</td>
+	<td>soa-it-single</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=4585d503-7f37-44ae-8700-f74484a0428d' title="Show the properties for connecting to the account.">Show</a></td>
+	<td><a href='?operation=realloc&amp;expiry=60&amp;uuid=4585d503-7f37-44ae-8700-f74484a0428d' title="Prolong the allocation for another hour.">+1h</a></td>
+	<td><a href='?operation=realloc&amp;expiry=1440&amp;uuid=4585d503-7f37-44ae-8700-f74484a0428d' title="Prolong the allocation for another day.">+1d</a></td>
+    <td><a href='?operation=dealloc&amp;uuid=4585d503-7f37-44ae-8700-f74484a0428d' title="De-allocate the account so that others can use it.">Free</a></td>
+    <td><a href='?operation=erase&amp;uuid=4585d503-7f37-44ae-8700-f74484a0428d' title="Erase the contents of the database.">Erase!</a></td>
+  <td><a href="http://hudson.qa.jboss.com/hudson/job/GUI" title="If the requestee is a Jenkins job, this may take you there.">Jenkins?</a></td>
+	<td>mssql2008R2</td>
+	<td>dballo00</td>
+	<td>May 4, 2012 5:57:57 AM</td>
+	<td>GUI</td>
+</tr>
+
+</table>
+
+<h2>Broken accounts<sup>[<a href="#whatisbroken">1</a>]</sup></h2>
+<table>
+<tr>
+    <th width="250" colspan="2">actions</th>
+    <th width="100">database</th>
+    <th width="100">account</th>
+    <th>requestee</th>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=0108d50c-159e-4c67-b579-de58e65d4793' title="Show the properties for connecting to the account.">Show</a></td>
+    <td><a href='?operation=erase&amp;uuid=0108d50c-159e-4c67-b579-de58e65d4793' title="Erase the contents of the database. Must pass without exceptions.">Attempt fix</a></td>
+    <td>mysql51</td>
+    <td>dballo08</td>
+    <td>hibernate</td>
+</tr>
+
+<tr>
+    <td><a href='?operation=show&amp;uuid=7c302400-31cd-42ea-93b7-2c219bedd739' title="Show the properties for connecting to the account.">Show</a></td>
+    <td><a href='?operation=erase&amp;uuid=7c302400-31cd-42ea-93b7-2c219bedd739' title="Erase the contents of the database. Must pass without exceptions.">Attempt fix</a></td>
+    <td>sybase155</td>
+    <td>dballo04</td>
+    <td>mgencur_local</td>
+</tr>
+
+</table>
+
+<h2>Available servers</h2>
+<table>
+<tr>
+	<th width="250" colspan="3">actions</th>
+	<th width="100">database</th>
+	<th width="100">usage</th>
+	<th>labels</th>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql55&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql55&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql55&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql55</td>
+	<td>0 of 20</td>
+	<td>[mysql5516, mysql55, mysql]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle9i&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle9i&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle9i&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle9i</td>
+	<td>0 of 20</td>
+	<td>[oracle, oracle9i]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=postgresql91&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql91&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql91&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>postgresql91</td>
+	<td>0 of 20</td>
+	<td>[postgresql91, postgresql, postgresql911]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72-singlenode&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72-singlenode&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72-singlenode&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql-cluster-72-singlenode</td>
+	<td>0 of 14</td>
+	<td>[mysql-cluster-72-singlenode, mysql-cluster-725-singlenode, cluster-singlenode, mysql-cluster-singlenode]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mssql2008R2&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2008R2&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2008R2&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mssql2008R2</td>
+	<td>1 of 10</td>
+	<td>[mssql2008, mssql, mssql2008R2]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=db2-91&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=db2-91&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=db2-91&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>db2-91</td>
+	<td>1 of 9</td>
+	<td>[db2-91, db2]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=db2-97&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=db2-97&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=db2-97&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>db2-97</td>
+	<td>0 of 9</td>
+	<td>[db2-97, db2]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mssql2005&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2005&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2005&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mssql2005</td>
+	<td>0 of 9</td>
+	<td>[mssql, mssql2005]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mssql2008R1&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2008R1&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mssql2008R1&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mssql2008R1</td>
+	<td>0 of 9</td>
+	<td>[mssql2008, mssql, mssql2008R1]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql50&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql50&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql50&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql50</td>
+	<td>0 of 9</td>
+	<td>[mysql50, mysql]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql51&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql51&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql51&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql51</td>
+	<td>1 of 9</td>
+	<td>[mysql51, mysql]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle10g&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle10g&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle10g&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle10g</td>
+	<td>0 of 9</td>
+	<td>[oracle10g, oracle]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle11gR2</td>
+	<td>9 of 9</td>
+	<td>[oracle11g, oracle11gR2, oracle]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle11gR1</td>
+	<td>0 of 9</td>
+	<td>[oracle11g, oracle11gR1, oracle]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1RAC&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1RAC&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR1RAC&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle11gR1RAC</td>
+	<td>0 of 9</td>
+	<td>[oracle11gR1RAC, cluster, oracle11gRAC]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2RAC&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2RAC&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=oracle11gR2RAC&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>oracle11gR2RAC</td>
+	<td>0 of 9</td>
+	<td>[oracle11gR2RAC, cluster, oracle11gRAC]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=postgresql82&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql82&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql82&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>postgresql82</td>
+	<td>2 of 9</td>
+	<td>[postgresql82, postgresql]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=postgresql83&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql83&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql83&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>postgresql83</td>
+	<td>2 of 9</td>
+	<td>[postgresql83, postgresql]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=postgresql84&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql84&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql84&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>postgresql84</td>
+	<td>3 of 9</td>
+	<td>[postgresql, postgresql84, postgresql847]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=postgresql844&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql844&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=postgresql844&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>postgresql844</td>
+	<td>0 of 9</td>
+	<td>[postgresql, postgresql844]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=sybase150&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase150&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase150&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>sybase150</td>
+	<td>0 of 9</td>
+	<td>[sybase150, sybase, sybase15]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=sybase155&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase155&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase155&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>sybase155</td>
+	<td>1 of 9</td>
+	<td>[sybase, sybase15, sybase155]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=sybase157&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase157&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=sybase157&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>sybase157</td>
+	<td>0 of 9</td>
+	<td>[sybase, sybase157, sybase15]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql-cluster-72&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql-cluster-72</td>
+	<td>0 of 5</td>
+	<td>[mysql-cluster-725, mysql-cluster, cluster, mysql-cluster-72]</td>
+</tr>
+
+<tr>
+	<td><a href='?operation=alloc&amp;label=mysql51-mrg&amp;expiry=60&amp;requestee=GUI'>Take (1h)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql51-mrg&amp;expiry=1440&amp;requestee=GUI'>Take (1d)</a></td>
+	<td><a href='?operation=alloc&amp;label=mysql51-mrg&amp;expiry=10080&amp;requestee=GUI'>Take (1w)</a></td>
+	<td>mysql51-mrg</td>
+	<td>0 of 1</td>
+	<td>[mysql51-mrg]</td>
+</tr>
+
+</table>
+
+<ol>
+    <li id="whatisbroken">A broken account means that the account is disabled because the "Erase" operation failed on it. It needs to be cleaned manually and then returned back to usual operation by clicking "Fix", which will effectively call the erase operation. This is done to prevent other people's jobs form breaking because people leave the accounts in a bad shape.</li>
+</ol>
+
+<p><a href='https://docspace.corp.redhat.com/clearspace/docs/DOC-29725' title='DBAllocator info page'>What's this?</a></p>
+
+</body>
+</html>

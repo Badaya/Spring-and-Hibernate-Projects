@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+     <bean id="newsFeed" class="demo.example.spring.NewsFeed" scope="prototype"/>
+      <bean id="newsFeedManager" class="demo.example.spring.NewsFeedManager" scope="singleton">
+      <lookup-method name="getNewsFeed" bean="newsFeed" />
+      </bean>
+</beans>
